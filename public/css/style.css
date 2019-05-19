@@ -28,7 +28,7 @@ li{
     display:inline-block;
     font-size: 20pt;
     transition: 0.4s;
-    padding: 15px 85px
+    padding: 15px 100px
 }
 li:hover{
     background-color: #E3D1C3;
@@ -40,7 +40,7 @@ header{
     
 }
 nav{
-    text-align: center;
+    
     display: inline-block;
     
 }
