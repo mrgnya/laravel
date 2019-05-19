@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,14 +9,14 @@
     <title>Document</title>
 </head>
 <body>
+
 <header>
-        <h1>Chill films</h1>
+        <a href="/"><h1>Chill films</h1></a>
         <nav>
             <ul>
-                <li><a href="/sections/">Разделы</a></li>
-                <li><a href="/registration">Регистрация</a></li>
-                <li><a href="/login">Вход</a></li>
-                <li><a href="/feedback">Поддержка</a></li>
+                <a href="/registration"><li>Регистрация</li></a>
+                <a href="/login"><li>Вход</li></a>
+               <a href="/feedback"><li>Поддержка</li></a>
             </ul>
         </nav>
         </header>
