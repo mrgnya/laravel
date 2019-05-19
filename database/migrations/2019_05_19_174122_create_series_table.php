@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateFilmsTable extends Migration
+class CreateSeriesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -17,8 +17,7 @@ class CreateFilmsTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->text('description');
-            $table->increments('count_seasons');
-            $table->increments('count_series');
+            $table->date('date');
             $table->rememberToken();
             $table->timestamps();
         });
