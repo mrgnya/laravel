@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,20 +10,22 @@
 </head>
 <body>
         <header>
-        <h1>Chill films</h1>
+        <a href="/"><h1>Chill films</h1></a>
         <nav>
             <ul>
-                <li><a href="/registration">Регистрация</a></li>
-                <li><a href="/login">Вход</a></li>
-                <li><a href="/feedback">Поддержка</a></li>
+                <a href="/registration"><li>Регистрация</li></a>
+                <a href="/login"><li>Вход</li></a>
+               <a href="/feedback"><li>Поддержка</li></a>
             </ul>
         </nav>
         </header>
         <div class="container">
             <div id="sidebar">
-               <aside><a href="/sections/films">Фильмы</a></aside>
-               <aside><a href="/sections/anime">Аниме</a></aside>
-               <aside><a href="/sections/serials">Сериалы</a></aside>
+                <div class="sticky">
+                    <a href="/films"><aside>Фильмы</aside></a>
+                    <a href="/anime"><aside>Аниме</aside></a>
+                    <a href="/serials"><aside>Сериалы</aside></a>
+               </div>
             </div>
             <main>
             <h2> Содержимое</h2>

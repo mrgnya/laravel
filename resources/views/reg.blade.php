@@ -7,6 +7,10 @@
     <title>Document</title>
 </head>
 <body>
-    Здесь находится список серий
+    <form action="">
+        <input type="text">
+        <input type="text">
+        <input type="submit">
+    </form>
 </body>
 </html>

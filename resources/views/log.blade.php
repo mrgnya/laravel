@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    Здесь находится список сезонов
+    войти
 </body>
 </html>
