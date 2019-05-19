@@ -17,5 +17,5 @@ Route::get('/sections/{list}/{film_name}/{season?}', function ($list, $film_name
     });
 Route::get('/sections/{list}/{film_name}/{season?}/{part?)', function ($list, $film_name, $season, $part) {
         return view('part');
-    });
+    }); 
 
