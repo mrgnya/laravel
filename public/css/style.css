@@ -28,8 +28,9 @@ li{
     display:inline-block;
     font-size: 20pt;
     transition: 0.4s;
-    padding: 15px 100px;
+    padding: 5px 50px;
     color:#FDE9DA;
+    width: 25%;
 }
 li:hover{
     background-color: #E3D1C3;
@@ -39,6 +40,7 @@ header{
     background-color: #7D736B;
     position: sticky;
     top: 0;
+    display: flex;
 }
 nav{
     display: inline-block;
@@ -51,6 +53,7 @@ h1{
     font-size: 25pt;
     margin-left: 17%;
     margin-right: 7%;
+    width: 25%;
 }
 h2{
     font-weight: 300;
@@ -90,7 +93,7 @@ article{
 footer{
     text-align: center;
     background-color: #7D736B;
-    padding:20px 0;
+    padding:10px 0;
     position: sticky;
     bottom: 0;
 }
