@@ -145,6 +145,7 @@ label:hover{
 }
 label{
     transition: 0.3s;
+    margin: 0 10px;
     
 }
 input{
